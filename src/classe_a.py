@@ -24,3 +24,7 @@ class A:
     def MA3(self):
         print("Alteração a classe A partir do clone") #
 
+    @staticmethod
+    def getSoma(a, b):
+        return a + b
+
